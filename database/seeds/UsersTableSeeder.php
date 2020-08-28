@@ -32,7 +32,7 @@ class UsersTableSeeder extends Seeder
 
         $utilisateur = User::create([
             'name' => 'utilisateur',
-            'email' => 'utilisateur@utuilisateur.com',
+            'email' => 'utilisateur@utilisateur.com',
             'password' => Hash::make('password')
         ]);
 
